@@ -1,0 +1,22 @@
+{
+  "name": "vertc-electron-screen-share-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VolcEngine vertc-electron-sdk 屏幕共享停止后无法回显 / macOS 录屏指示不消失 — 最小复现",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "use:electron13": "pnpm add -D electron@13.6.9",
+    "use:electron28": "pnpm add -D electron@28.3.3",
+    "use:electron31": "pnpm add -D electron@31.7.6"
+  },
+  "dependencies": {
+    "@volcengine/vertc-electron-sdk": "3.58.4"
+  },
+  "devDependencies": {
+    "electron": "13.6.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
