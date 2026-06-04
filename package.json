@@ -8,13 +8,14 @@
     "start": "electron .",
     "use:electron13": "pnpm add -D electron@13.6.9",
     "use:electron28": "pnpm add -D electron@28.3.3",
-    "use:electron31": "pnpm add -D electron@31.7.6"
+    "use:electron33": "pnpm add -D electron@33.4.11",
+    "use:electron39": "pnpm add -D electron@39.8.10"
   },
   "dependencies": {
     "@volcengine/vertc-electron-sdk": "3.58.4"
   },
   "devDependencies": {
-    "electron": "13.6.9"
+    "electron": "33.4.11"
   },
   "engines": {
     "node": ">=18"
